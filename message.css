@@ -2,11 +2,11 @@
 @keyframes caret { 50% { border-color: transparent; } }
 
 p {
-font-family: monospace; 
-width: 60ch;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+width: 33ch;
 border-right: .08em solid;
 overflow: hidden;
-font-size: 2em;
+font-size: 3em;
 white-space: nowrap;
-animation: typing 30s steps(30, end), caret .8s step-end infinite;
+animation: typing 25s steps(70, end), caret .3s step-end infinite;
 }
